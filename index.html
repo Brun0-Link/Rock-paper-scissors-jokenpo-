@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedra, Papel & Tesoura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Jogue Pedra, Papel & Tesoura!</h1>
+  </header>
+  <section class="playArea" id="playArea">
+    <a href="#playScore" class="card">
+      <label for="rock">Pedra</label>
+      <div id="rock" class="imgBox">
+        <img src="images/paw-sign-of-rock.jpg" alt="Figura de pata de gatinho - sinalizando pedra" />
+      </div>
+    </a>
+    <a href="#playScore" class="card">
+      <label for="paper">Papel</label>
+      <div id="paper" class="imgBox">
+        <img src="images/paw-sign-of-paper.jpg" alt="Figura de pata de gatinho - sinalizando papel" />
+      </div>
+    </a>
+    <a href="#playScore" class="card">
+      <label for="scissor">Tesoura</label>
+      <div id="scissor" class="imgBox">
+        <img src="images/paw-sign-of-scissors.jpg" alt="Figura de pata de gatinho - sinalizando tesoura" />
+      </div>
+    </a>
+  </section>
+  <section class="playScore" id="playScore">
+    <div class="scores">
+      <span id="result"></span>
+    </div>
+    <a href="#playArea" class="buttonPlayAgain">
+      <span>Jogue de novo!</span>
+    </a>
+  </section>
+  <footer>
+    <h3>Image source</h3>
+    <div class="link">
+      <a href="https://www.vecteezy.com/free-vector/cartoon"><img src="images/Vecteezy logo.png"
+          alt="Link com logo da Vecteezy" target="_blank" /></a>
+    </div>
+    <span></span>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
